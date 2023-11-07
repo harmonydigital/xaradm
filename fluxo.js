@@ -316,7 +316,7 @@ function login(){
                     sessionStorage.setItem("nameValueStorage",nameValue);
                     bodyDocument.style.cssText='overflow:auto;'
                     welcome.innerHTML=` 
-                    <i class="fa-regular fa-user" style="color:red;"></i>
+                    <i class="fa-regular fa-user" style="color:#03184E;"></i>
                     Olá <strong>`+nameValue+`</strong>, bem-vindo!
                 `
 
@@ -325,7 +325,7 @@ function login(){
                     
                     admLogin=true  
                     welcome.innerHTML=` 
-                        <i class="fa-regular fa-user" style="color:red;"></i>
+                        <i class="fa-regular fa-user" style="color:#03184E;"></i>
                         Olá <strong>`+nameValue+`</strong>, bem-vindo!
                     `
                     document.getElementById('login').style.cssText="display:none;"
@@ -339,7 +339,7 @@ function login(){
                     sessionStorage.setItem("nameValueStorage",nameValue);
                     bodyDocument.style.cssText='overflow:auto;'
                     welcome.innerHTML=` 
-                    <i class="fa-regular fa-user" style="color:red;"></i>
+                    <i class="fa-regular fa-user" style="color:#03184E;"></i>
                     Olá <strong>`+nameValue+`</strong>, bem-vindo!
                 `
 
@@ -891,7 +891,7 @@ function  fluxo(){
 
                 <div onclick="toogleNot('notificacao')" style="position: absolute;  right: 30px; top: 30px; display: flex;  flex-direction: row-reverse; ">
                 
-                    <i style="  color: red;  " class="fa-solid fa-bell"></i>
+                    <i style="  color: #03184E;  " class="fa-solid fa-bell"></i>
                         <span id="notQtd"></span> 
                   
 

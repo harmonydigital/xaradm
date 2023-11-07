@@ -90,14 +90,14 @@ select:focus-visible {
     font-size: 2.2rem;
     font-weight: bold;
     width: auto;
-    color: #535252;
+    color: #03184E;
     margin: 35px 0px;
     line-height: 1.1;
 }
 h5 {
     text-align: left;
     font-weight: 900;
-    color: #818f9b;
+    color: #222f51;
     font-size: 21px;
     margin: 10px 20px;
     
@@ -195,7 +195,7 @@ div#whatsappId {
     background: transparent;
 }
 .card h6 {
-        color: #ff5400;
+        color: red;
         font-size: 1.0rem;
         margin: 0;
         
@@ -247,7 +247,7 @@ button.getDatails {
     font-weight: 500;
 }
 .data_container span.tooltip {
-    background: #ff5400;
+    background: red;
     padding: 10px;
     position: absolute;
     right: 0;
@@ -332,7 +332,7 @@ div#addOrdersContainer h2 {
     margin: 0;
 }
 .card.red {
-    background: #ff5400;
+    background: #03184E;
 }
 
 .card.red span,.card.red h6 {

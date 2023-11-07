@@ -31,7 +31,7 @@ div#notifications img {
     align-items: stretch;
 }
 span#notQtd span{
-    background: #ff5400;
+    background: red;
     width: 23px;
     height: 34px;
     display: flex;
